@@ -1,6 +1,9 @@
 from flask import Flask, render_template, request
 from openai import OpenAI2
 
+a lot of things are changes
+
+
 app = Flask(__name__)
 
 client = OpenAI(
