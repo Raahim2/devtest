@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from openai import OpenAI
+from openai import OpenAI2
 
 app = Flask(__name__)
 
