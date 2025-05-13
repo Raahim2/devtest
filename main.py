@@ -8,6 +8,8 @@ client = OpenAI(
     api_key="mai nahi bataunga"
 )
 
+def n():
+    pass
 
 def deepseek(prompt):
     messages = [
