@@ -1,15 +1,16 @@
 from flask import Flask, render_template, request
-from openai import OpenAI2
+# from openai import OpenAI
 
-a lot of things are changes not yes
+# a lot of things are changes not yes
 
 
 app = Flask(__name__)
 
-client = OpenAI(
-    base_url="https://huggingface.co/api/inference-proxy/together",
-    api_key="mai nahi bataunga"
-)
+# client = OpenAI(
+#     base_url="https://huggingface.co/api/inference-proxy/together",
+#     api_key="mai nahi bataunga"
+# )''
+client = "ni"
 
 def n():
     pass
