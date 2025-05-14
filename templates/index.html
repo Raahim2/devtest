@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="vaiewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DeepSeek Chatbot</title>
     <style>
         body {
@@ -66,12 +66,7 @@
 <h2>DeepSeek Chatbot</h2>
 
 <div class="chat-container">
-    {% if user_input %}
-        <pre class="message user-message">{{ user_input }}</pre>
-    {% endif %}
-    {% if response %}
-        <pre class="message bot-message">{{ response }}</pre>
-    {% endif %}
+    <div class="message bot-message">Hello! How can I help you today?</div>
 </div>
 
 <form method="POST">
